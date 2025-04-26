@@ -44,9 +44,8 @@ class SearchTool(BaseTool):
 
 # ATENÇÃO: mudei o nome para não conflitar
 class DoctorAgent:
-    def __init__(self):
-        # Instanciação LLM
-        token = os.getenv('GITHUB_API_KEY')
+    def __init__(self, api_key=None):
+        token = api_key if api_key else os.getenv('GITHUB_API_KEY')
         endpoint = "https://models.github.ai/inference"
 
         self.llm = LLM(
