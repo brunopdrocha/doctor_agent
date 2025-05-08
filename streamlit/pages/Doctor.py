@@ -1,10 +1,19 @@
 
-# Bibliotecas para o streamit
-from agent.crewAgent import DoctorAgent
+# Bibliotecas para o streamlit
 import streamlit as st
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "..")))
+from agent.crewAgent import DoctorAgent
+
+
+
+# Titulo App 
+st.title("Doctor Agent")
+
 
 # Interface para API key
 user_api_key = st.text_input("Insira sua API key:", type="password")
+
 
 # Botão para iniciar análise
 sintomas = st.text_area("Descreva seus sintomas:")

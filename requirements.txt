@@ -1,5 +1,5 @@
-crewai==0.11.4
-crewai-tools == 0.32.1
+crewai==0.114.0
+crewai-tools==0.32.1
 duckduckgo-search==8.0.1
-python-dotenv == 1.0.1
-streamlit == 1.43.1
+python-dotenv==1.0.1
+streamlit==1.43.1
