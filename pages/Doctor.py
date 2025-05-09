@@ -1,23 +1,9 @@
 # Bibliotecas para o streamlit
 import streamlit as st
 import sys, os
-import subprocess
-
 sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "..")))
 from agent.crewAgent import DoctorAgent
 
-# Instalar pysqlite3-binary se necessário
-def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-try:
-    import pysqlite3
-except ImportError:
-    install("pysqlite3-binary")
-    import pysqlite3
-
-# Redireciona o módulo sqlite3 para o pysqlite3
-sys.modules["sqlite3"] = pysqlite3
 # Página config
 st.set_page_config(
     page_title="Doctor AI Agent",
