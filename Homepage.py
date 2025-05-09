@@ -2,7 +2,6 @@ import streamlit as st
 import sys,os
 import subprocess
 sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "..")))
-subprocess.check_call([sys.executable, "-m", "pip", "install", "pysqlite3"])
 # Página config
 st.set_page_config(
     page_title="Doctor AI Agent",
