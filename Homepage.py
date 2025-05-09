@@ -1,7 +1,6 @@
 import streamlit as st
 import sys,os
-__import__('pysqlite3')
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "..")))
 
 # Página config
