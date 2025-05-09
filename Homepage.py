@@ -1,4 +1,6 @@
 import streamlit as st
+import sys,os
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "..")))
 
 # Página config
 st.set_page_config(
