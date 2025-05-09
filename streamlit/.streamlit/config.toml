@@ -1,5 +1,5 @@
 [theme]
-primaryColor="#ffffff"
-backgroundColor="#ffe4e4"
-secondaryBackgroundColor="#ff9393"
-textColor="#000000"
+primaryColor = "#0D6EFD"             # Azul vivo, para botões e destaques
+backgroundColor = "#E3F2FD"          # Azul bem clarinho, papel clínico
+secondaryBackgroundColor = "#CFE2F3" # Azul suave para cartões e seções
+textColor = "#0B3D91"                # Azul escuro, boa legibilidade

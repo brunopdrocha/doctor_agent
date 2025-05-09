@@ -3,3 +3,4 @@ crewai-tools==0.32.1
 duckduckgo-search==8.0.1
 python-dotenv==1.0.1
 streamlit==1.43.1
+patronus==0.0.17

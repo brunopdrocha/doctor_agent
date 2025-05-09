@@ -11,9 +11,15 @@ st.set_page_config(
 st.title("🩺 Doctor AI Agent")
 st.markdown(
     """
-Welcome to **Doctor AI Agent**, an intelligent medical assistant designed to perform preliminary patient assessments and deliver concise, data-driven medical analyses.
+Welcome to **Doctor AI Agent**, your intelligent medical assistant in Portuguese. This tool performs preliminary patient assessments and delivers concise, data-driven insights.
+
+To begin, you’ll need a **GitHub Models API key**—click the button below to generate your key.
+
+When you’re ready to try it out, select **Doctor** from the menu in the top-left corner.
 """
 )
+
+st.link_button("Github Models",url="https://github.com/settings/tokens")
 
 st.markdown("---")
 
@@ -87,6 +93,9 @@ st.markdown(
 )
 
 # 🚀 Getting Started
+
+
+        
 st.header("GitHub Repository")
 st.markdown(
     """
@@ -94,3 +103,13 @@ st.markdown(
  https://github.com/brunopdrocha/doctor_agent
    """
    )
+
+st.markdown(
+    """
+    <hr style="margin-top: 50px;"/>
+    <div style='text-align: center; padding: 10px 0; color: gray; font-size: 0.9em;'>
+        © 2025 Doctor Agent | Developed by Bruno Pilão da Rocha
+    </div>
+    """,
+    unsafe_allow_html=True
+)
