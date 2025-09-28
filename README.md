@@ -6,7 +6,7 @@ Doctor AI Agent is a intelligent medical assistant in Portuguese that performs p
 ---
 
 ## 🧠 Technologies Used
-- Python 3.11.5
+- Python 3.11.13
 - [Streamlit]("https://streamlit.io/")
 - [LangChain]("https://www.langchain.com/")
 - [CrewAI]("https://www.crewai.com/")
